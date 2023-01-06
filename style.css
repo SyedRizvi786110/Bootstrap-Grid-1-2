@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.btn-compose{
+    color: #3498DB;
+    background: none;
+    border:2px solid #3498DB;
+    Cursor:pointer;
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    }
+.btn-compose::before{
+    content: "";
+    position:absolute;
+    background:#3498DB ;
+    width: 100%;
+    height: 0%;
+    transition:0.8s ;
+    z-index: -1;
+    left:0;
+    top:0;
+    border-radius: 0 0 50% 50%;
+}
+.btn-compose:hover::before{
+    height: 180%;
+}
+.btn-compose:hover{
+    color:#fff;
+}
+.btn-Reply{
+    color: #3498DB;
+    background:none;
+    border:1px solid #3498DB;
+    Cursor:pointer;
+    border-radius:15px;
+    font-size: 15px;
+    }
+    .navbar{
+        background:#3498DB ;
+        height: 80px;
+        display: flex;
+        width:100%;
+    }
+    .navbar-brand{
+        font-style: italic;
+        color:white;
+        font-size:25px;
+    }
+
+    .sm-icons{
+        flex-direction: row;
+    }  
+    .sm-icons .nav-link{
+        font-size:20px ;
+        padding-right:3em;
+        color: whitesmoke;
+    }
+    .list-group-item{
+        border:1px solid #3498DB;
+        border-radius:10px;
+        margin: 1px;
+        color:#3498DB;
+        padding: 10px;
+    }
+    .Jk{
+        background-image: url("Jk.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        padding-top:15px;
+        padding-left: 15px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        font-size: medium;
+        color: whitesmoke;
+        }
+    input{
+        font-family: 'FontAwesome';
+    }
+    .ff{
+        position:relative;
+        
+        }
+    .fa-reply{
+        position:absolute;
+        left:500px;
+        bottom: 698px;
+
+    }
+    .fa-trash{
+        position:absolute;
+        left:450px;
+        bottom:700px ;
+    }
+    .fff{
+        position: relative;
+    }
+    .fa-pencil{
+        position:absolute;
+        left:480px;
+        bottom:150px;
+    }
+   
+
